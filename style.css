@@ -1,0 +1,81 @@
+body{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: 12rem;
+    width: 12rem;
+    border: 2px solid black;
+    margin: 1.5rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 900;
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.yellow{
+    background-color: #f99b45 ;
+}
+
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
+
+#highScore{
+    position: absolute;
+    right: 4rem;
+    top:0px;
+}
+
+#start{
+    font-weight: 700;
+    padding: 0.8rem;
+    width: 5rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+#start:focus{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 700px) {
+        .btn{
+            height: 6rem;
+            width: 6rem;
+            border-radius: 1rem;
+        }
+
+        #highScore{
+            position: relative;
+            margin-left: 1rem;
+            text-align: center;
+        }
+       
+    }
+  
+  
